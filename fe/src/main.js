@@ -1,6 +1,10 @@
-import './assets/css/color.min.css';
+// import './assets/css/color.min.css';
+import './assets/css/main.css';
 
+import router from "./router"; // Import Vue Router
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+const app = createApp(App);
+app.use(router); // Kích hoạt Vue Router
+app.mount("#app");
