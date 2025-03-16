@@ -1,4 +1,3 @@
-import './assets/main.css'
 import './assets/css/app.min.css';
 import './assets/css/bootstrap.min.css';
 
