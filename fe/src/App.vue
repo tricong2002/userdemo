@@ -1,11 +1,9 @@
-<script setup>
-import HomeView from './views/pages/HomeView.vue';
-</script>
-
 <template>
-  
-
   <main>
-    <HomeView/>
+    <router-view /> <!-- ✅ Dùng router-view để hiển thị nội dung -->
   </main>
 </template>
+
+<script setup>
+import { RouterView } from 'vue-router';
+</script>
